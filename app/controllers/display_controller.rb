@@ -1,4 +1,5 @@
 class DisplayController < ApplicationController
+  http_basic_authenticate_with name: "usds", password: "id.us"
 
   before_action :logothing, except: [:transcript, :usaccount]
   def vetlist
