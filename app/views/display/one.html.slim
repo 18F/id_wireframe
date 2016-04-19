@@ -4,19 +4,17 @@
   p= 'Get Transcript allows you to access your personal tax information and proof of income information online.'
 .verbiage
   p
-    | Before you can access your transcript, you need to verify your identity.
-    | Secure Accounts is the new way to prove your identity online. This process will take about 10 minutes.
+    | Before you can access your transcript online, you need to verify your identity.
+    | This process will take about 10 minutes.
 .directives
-  p
-    'This is my first time here.
+  h3= 'This is my first time here.
   .form-group.form-group-button-section
     = link_to 'Verify my identity', display_two_url, class: 'btn'
 
 .directives
+  h3= 'I've been here before.
   p
-    'I've been here before.
-  p
-    'Log in below if you've previously created a UserID for any of the following applications:
+    'Log in below if you've previously created an account at any of the following applications:
     ul
       li= 'Get Transcript'
       li= 'Identity Protection PIN (IP PIN)'
